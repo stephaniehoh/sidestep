@@ -11,8 +11,10 @@ function navShow() {
     var y = $(this).scrollTop();
     if (y > 540) {
       $('#illusion-nav').fadeIn(700);
+      $('nav').hide();
     } else {
       $('#illusion-nav').fadeOut(200);
+      $('nav').show();
     }
   });
 }
