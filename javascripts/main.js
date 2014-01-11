@@ -10,7 +10,7 @@ function navShow() {
   $(document).scroll(function () {
     var y = $(this).scrollTop();
     if (y > 540) {
-      $('#illusion-nav').show();
+      $('#illusion-nav').fadeIn(700);
     } else {
       $('#illusion-nav').fadeOut(200);
     }
